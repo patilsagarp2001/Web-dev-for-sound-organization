@@ -1,0 +1,108 @@
+body{
+	padding:0px;
+	margin:0%;
+}
+.topnav .icon {
+  display: none;
+}
+@media screen and (max-width: 1200px) {
+  .topnav li:not(:first-child){display: none;}
+
+  .topnav .icon {
+    float: right;
+    display: block;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive li {
+    float: none;
+    display: block;
+    padding: 0px;
+  }
+  .topnav li a{
+  	padding: 5px;
+  	text-align: right;
+  }
+}
+
+.header{
+	background-image: url("./images/image9.jpg");
+	min-height: 660px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-weight: bold;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  color:white;
+}
+i{
+	font-size:60px;
+	padding-right: 20px;
+	color: #f45525
+}
+li {
+  float: left;
+  color: white;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding:20px;
+  text-decoration: none;
+}
+
+li a:hover {
+  color:white;
+}
+.lower{
+	background-color: black;
+	margin:auto;
+	color:white;
+	padding-top:100px;
+}
+.lower1{
+	padding-bottom:100px;
+
+}
+.lower3{
+	height:auto; 
+	color:white;
+	text-align: center;
+}
+
+.lower13 table{
+	width: 70%;
+}
+.lower13 td{
+	padding-bottom: 16px;
+	padding-right: 10px;
+}
+textarea{
+	width: 100%;
+}
+input{
+	width:100%;
+	height: 50px;
+}
+button{
+	width: 100%;
+	background-color: black; 
+ 	color: white; 
+  	border: 3px solid #f45525;
+  	height: 50px;
+}
+button:hover {
+  box-shadow: 0 8px 12px 0 #f45525,0 12px 30px 0 #f45525;
+  border: 0px solid #f45525;
+}
